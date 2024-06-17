@@ -1,9 +1,3 @@
-//
-//  Macro.swift
-//  MacroTrackerApp
-//
-//  Created by Apple on 25/08/24.
-//
 
 import Foundation
 import SwiftData

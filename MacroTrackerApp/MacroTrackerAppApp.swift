@@ -1,9 +1,4 @@
-//
-//  MacroTrackerAppApp.swift
-//  MacroTrackerApp
-//
-//  Created by Apple on 25/08/24.
-//
+
 
 import SwiftUI
 import SwiftData

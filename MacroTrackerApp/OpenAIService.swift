@@ -1,9 +1,4 @@
-//
-//  OpenAIService.swift
-//  MacroTrackerApp
-//
-//  Created by Apple on 26/08/24.
-//
+
 
 import Foundation
 
