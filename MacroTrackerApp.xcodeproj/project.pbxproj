@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184DB0092C7B602400FD0AAF /* MacroTrackerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DB0082C7B602400FD0AAF /* MacroTrackerAppApp.swift */; };
+		184DB00B2C7B602400FD0AAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DB00A2C7B602400FD0AAF /* ContentView.swift */; };
+		184DB00D2C7B602500FD0AAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184DB00C2C7B602500FD0AAF /* Assets.xcassets */; };
+		184DB0102C7B602500FD0AAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184DB00F2C7B602500FD0AAF /* Preview Assets.xcassets */; };
+		184DB0172C7B609C00FD0AAF /* MacroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DB0162C7B609C00FD0AAF /* MacroView.swift */; };
+		184DB0192C7B60FB00FD0AAF /* MacroHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DB0182C7B60FB00FD0AAF /* MacroHeaderView.swift */; };
+		184DB01C2C7B61D300FD0AAF /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DB01B2C7B61D300FD0AAF /* Macro.swift */; };
+		184DB01E2C7B622100FD0AAF /* MacroDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DB01D2C7B622100FD0AAF /* MacroDayView.swift */; };
+		184DB0202C7B62AE00FD0AAF /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DB01F2C7B62AE00FD0AAF /* Date+Ext.swift */; };
+		184DB0222C7B63B000FD0AAF /* AddMacroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DB0212C7B63B000FD0AAF /* AddMacroView.swift */; };
+		184DB0242C7B642A00FD0AAF /* GetMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DB0232C7B642A00FD0AAF /* GetMacros.swift */; };
+		18B3F2B42C7BCBBF003B176B /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3F2B32C7BCBBF003B176B /* OpenAIService.swift */; };
+		18B3F2B62C7BCE6D003B176B /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3F2B52C7BCE6D003B176B /* Secrets.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		184DB0052C7B602400FD0AAF /* MacroTrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacroTrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184DB0082C7B602400FD0AAF /* MacroTrackerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroTrackerAppApp.swift; sourceTree = "<group>"; };
+		184DB00A2C7B602400FD0AAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		184DB00C2C7B602500FD0AAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184DB00F2C7B602500FD0AAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		184DB0162C7B609C00FD0AAF /* MacroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroView.swift; sourceTree = "<group>"; };
+		184DB0182C7B60FB00FD0AAF /* MacroHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroHeaderView.swift; sourceTree = "<group>"; };
+		184DB01B2C7B61D300FD0AAF /* Macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
+		184DB01D2C7B622100FD0AAF /* MacroDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroDayView.swift; sourceTree = "<group>"; };
+		184DB01F2C7B62AE00FD0AAF /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		184DB0212C7B63B000FD0AAF /* AddMacroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMacroView.swift; sourceTree = "<group>"; };
+		184DB0232C7B642A00FD0AAF /* GetMacros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMacros.swift; sourceTree = "<group>"; };
+		18B3F2B32C7BCBBF003B176B /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		18B3F2B52C7BCE6D003B176B /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184DB0022C7B602400FD0AAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184DAFFC2C7B602400FD0AAF = {
+			isa = PBXGroup;
+			children = (
+				184DB0072C7B602400FD0AAF /* MacroTrackerApp */,
+				184DB0062C7B602400FD0AAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184DB0062C7B602400FD0AAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184DB0052C7B602400FD0AAF /* MacroTrackerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184DB0072C7B602400FD0AAF /* MacroTrackerApp */ = {
+			isa = PBXGroup;
+			children = (
+				184DB01A2C7B61B400FD0AAF /* Models */,
+				184DB0082C7B602400FD0AAF /* MacroTrackerAppApp.swift */,
+				184DB00A2C7B602400FD0AAF /* ContentView.swift */,
+				184DB00C2C7B602500FD0AAF /* Assets.xcassets */,
+				184DB00E2C7B602500FD0AAF /* Preview Content */,
+				184DB0162C7B609C00FD0AAF /* MacroView.swift */,
+				184DB0182C7B60FB00FD0AAF /* MacroHeaderView.swift */,
+				184DB01D2C7B622100FD0AAF /* MacroDayView.swift */,
+				184DB01F2C7B62AE00FD0AAF /* Date+Ext.swift */,
+				184DB0212C7B63B000FD0AAF /* AddMacroView.swift */,
+				184DB0232C7B642A00FD0AAF /* GetMacros.swift */,
+				18B3F2B32C7BCBBF003B176B /* OpenAIService.swift */,
+				18B3F2B52C7BCE6D003B176B /* Secrets.swift */,
+			);
+			path = MacroTrackerApp;
+			sourceTree = "<group>";
+		};
+		184DB00E2C7B602500FD0AAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				184DB00F2C7B602500FD0AAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		184DB01A2C7B61B400FD0AAF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				184DB01B2C7B61D300FD0AAF /* Macro.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184DB0042C7B602400FD0AAF /* MacroTrackerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184DB0132C7B602500FD0AAF /* Build configuration list for PBXNativeTarget "MacroTrackerApp" */;
+			buildPhases = (
+				184DB0012C7B602400FD0AAF /* Sources */,
+				184DB0022C7B602400FD0AAF /* Frameworks */,
+				184DB0032C7B602400FD0AAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacroTrackerApp;
+			productName = MacroTrackerApp;
+			productReference = 184DB0052C7B602400FD0AAF /* MacroTrackerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184DAFFD2C7B602400FD0AAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					184DB0042C7B602400FD0AAF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 184DB0002C7B602400FD0AAF /* Build configuration list for PBXProject "MacroTrackerApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184DAFFC2C7B602400FD0AAF;
+			productRefGroup = 184DB0062C7B602400FD0AAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184DB0042C7B602400FD0AAF /* MacroTrackerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184DB0032C7B602400FD0AAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184DB0102C7B602500FD0AAF /* Preview Assets.xcassets in Resources */,
+				184DB00D2C7B602500FD0AAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184DB0012C7B602400FD0AAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184DB00B2C7B602400FD0AAF /* ContentView.swift in Sources */,
+				184DB0172C7B609C00FD0AAF /* MacroView.swift in Sources */,
+				184DB0192C7B60FB00FD0AAF /* MacroHeaderView.swift in Sources */,
+				184DB0222C7B63B000FD0AAF /* AddMacroView.swift in Sources */,
+				184DB0092C7B602400FD0AAF /* MacroTrackerAppApp.swift in Sources */,
+				184DB01E2C7B622100FD0AAF /* MacroDayView.swift in Sources */,
+				184DB0202C7B62AE00FD0AAF /* Date+Ext.swift in Sources */,
+				18B3F2B42C7BCBBF003B176B /* OpenAIService.swift in Sources */,
+				184DB01C2C7B61D300FD0AAF /* Macro.swift in Sources */,
+				184DB0242C7B642A00FD0AAF /* GetMacros.swift in Sources */,
+				18B3F2B62C7BCE6D003B176B /* Secrets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		184DB0112C7B602500FD0AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184DB0122C7B602500FD0AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184DB0142C7B602500FD0AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacroTrackerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = VN799MBZ2Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KrishnaP.MacroTrackerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184DB0152C7B602500FD0AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacroTrackerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = VN799MBZ2Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KrishnaP.MacroTrackerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184DB0002C7B602400FD0AAF /* Build configuration list for PBXProject "MacroTrackerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184DB0112C7B602500FD0AAF /* Debug */,
+				184DB0122C7B602500FD0AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184DB0132C7B602500FD0AAF /* Build configuration list for PBXNativeTarget "MacroTrackerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184DB0142C7B602500FD0AAF /* Debug */,
+				184DB0152C7B602500FD0AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184DAFFD2C7B602400FD0AAF /* Project object */;
+}
